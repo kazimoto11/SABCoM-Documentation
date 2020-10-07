@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Usage &mdash; SABCoM September, 2020 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Modules" href="modules.html" />
+    <link rel="prev" title="Inputs" href="Inputs.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> SABCoM
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">GETTING STARTED:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Inputs.html">Inputs</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#set-up-a-data-repository">Set up a data repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simulation">Simulation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#initialisation">Initialisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sample">Sample</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feedback.html">Feedback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="License.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SABCoM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="set-up-a-data-repository">
+<h2>Set up a data repository<a class="headerlink" href="#set-up-a-data-repository" title="Permalink to this headline">¶</a></h2>
+<p>The following data repository - <a class="reference external" href="https://github.com/blackrhinoabm/sabcom-paper">https://github.com/blackrhinoabm/sabcom-paper</a> is required for SABCom to work.</p>
+<p>Open the cloned folder onto your terminal.</p>
+</div>
+<div class="section" id="simulation">
+<h2>Simulation<a class="headerlink" href="#simulation" title="Permalink to this headline">¶</a></h2>
+<p>To simulate a model using the blow inputs, first make sure that all the files and folders are in your current location.</p>
+<ol class="arabic simple">
+<li><p>Input folder - example_data (cape_town or johannesburg)</p></li>
+<li><p>Output folder -  example_data/output_file</p></li>
+<li><p>Seed - 2</p></li>
+<li><p>Data output mode - csv-light</p></li>
+<li><p>Scenario - no-intervention. First, make sure that all the files and folders are in your current location.</p></li>
+</ol>
+<p>Next, you type in the inputs in the command line with the below syntax:</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">simulate</span> <span class="pre">-i</span> <span class="pre">example_data</span> <span class="pre">-o</span> <span class="pre">example_data/output_file</span> <span class="pre">-s</span> <span class="pre">2</span> <span class="pre">-d</span> <span class="pre">csv-light</span> <span class="pre">-sc</span> <span class="pre">no-intervention</span></code></p>
+<p>This will simulate a no_intervention scenario for the seed_2.pkl initialisation. Input files for the city of your choice, and output a csv light data file in the specified output folder (output_file).</p>
+<p>Also, note how this assumes that there is already an initialisation file. If there is no initialisation file, then sabcom can be used to produce one given the input files.</p>
+</div>
+<div class="section" id="initialisation">
+<h2>Initialisation<a class="headerlink" href="#initialisation" title="Permalink to this headline">¶</a></h2>
+<p>For input folders with no initialisation file. Sabcom uses the “sabcom initialise” function to create an initialisation with the files in input folder.</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">initialise</span> <span class="pre">&lt;input</span> <span class="pre">folder</span> <span class="pre">path&gt;</span> <span class="pre">&lt;seed</span> <span class="pre">number&gt;</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sabcom</span> <span class="pre">initialise</span> <span class="pre">-i</span> <span class="pre">example_data</span> <span class="pre">-s</span> <span class="pre">3</span></code></p>
+<p>As a rule, creating a model initialisation takes much longer than simulating one.</p>
+</div>
+<div class="section" id="sample">
+<h2>Sample<a class="headerlink" href="#sample" title="Permalink to this headline">¶</a></h2>
+<p>From the unique spatial structure of the model, we can track how a virus spreads spatially. For example, the figure below shows the quantity of the population infected in different Wards in the City of Cape town.</p>
+<p>Note that this concerns a hypothetical simulation of the non-calibrated model and is only used to give an idea of the possible dynamics.</p>
+<a class="reference internal image-reference" href="_images/Infected.gif"><img alt="_images/Infected.gif" class="align-center" src="_images/Infected.gif" style="width: 300px; height: 500px;" /></a>
+</div>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>Install the required dependencies using requirements.txt.</p>
+<p>For <strong>Windows</strong> Users:</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p>
+<p>For <strong>Mac</strong> and <strong>Linux</strong> Users</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="modules.html" class="btn btn-neutral float-right" title="Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Inputs.html" class="btn btn-neutral float-left" title="Inputs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Joeri Schasfoort
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
